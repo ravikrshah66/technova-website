@@ -1,0 +1,114 @@
+{
+  "project_name": "TechNova Solutions",
+  "theme": "Dark Futuristic Tech (Navy Obsidian & Electric Cyan)",
+  "app_type": "marketing_site",
+  "pages": [
+    "Homepage",
+    "About Us",
+    "Services",
+    "Our Projects",
+    "Why Choose Us",
+    "Contact Us"
+  ],
+  "typography": {
+    "heading_font": "Outfit, Clash Display, or System Sans Bold (font-sans font-bold)",
+    "body_font": "Plus Jakarta Sans or Inter (font-sans)",
+    "code_mono_font": "JetBrains Mono or Fira Code (font-mono)",
+    "hierarchy": {
+      "h1_hero": "text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight leading-[1.1]",
+      "h2_section": "text-2xl sm:text-3xl lg:text-4xl font-bold tracking-tight",
+      "h3_subsection": "text-xl sm:text-2xl font-semibold tracking-normal",
+      "h4_card_title": "text-lg sm:text-xl font-semibold",
+      "body": "text-base text-slate-300 leading-relaxed",
+      "small_label": "text-xs sm:text-sm font-mono tracking-widest uppercase text-cyan-400"
+    },
+    "anti_default_rules": [
+      "Do NOT use Inter for main hero titles — use high-weight display typography or bold geometric tracking",
+      "All eyebrow labels must be uppercase tracking-[0.2em] font-mono",
+      "Limit hero headlines to maximum text-6xl (never text-8xl or text-9xl)"
+    ]
+  },
+  "colors": {
+    "background_main": "#0A0F1D",
+    "background_secondary": "#0F172A",
+    "card_background": "#131C31",
+    "card_hover_background": "#182440",
+    "border_default": "#1E293B",
+    "border_glow": "rgba(0, 240, 255, 0.3)",
+    "primary_electric_blue": "#0066FF",
+    "primary_cyan_neon": "#00F0FF",
+    "accent_emerald": "#00F5D4",
+    "text_primary": "#F8FAFC",
+    "text_secondary": "#94A3B8",
+    "text_muted": "#64748B",
+    "gradient_hero": "bg-gradient-to-r from-[#0066FF] via-[#00F0FF] to-[#00F5D4]",
+    "gradient_glow": "radial-gradient(circle at 50% 0%, rgba(0,240,255,0.15) 0%, rgba(10,15,29,0) 70%)"
+  },
+  "visual_enhancers": {
+    "glassmorphism_nav": "backdrop-blur-xl bg-[#0A0F1D]/80 border-b border-slate-800/80 sticky top-0 z-50",
+    "tracing_beam_card": "relative border border-slate-800 hover:border-cyan-500/50 transition-all duration-300 rounded-2xl bg-[#131C31]/90 shadow-xl overflow-hidden group",
+    "glow_effects": "Subtle neon cyan radial ambient halos behind hero text and feature cards",
+    "tech_grid_background": "CSS linear-gradient grid mask (1px grid lines in slate-800/40) overlaying dark navy bg"
+  },
+  "key_functionalities": {
+    "kinetic_hero": "Line-by-line staggered text reveal using Framer Motion",
+    "smooth_scroll": "Lenis momentum smooth scrolling integrated at root",
+    "editorial_marquee": "Infinite moving tech stack strip (AI, Cloud, Cyber, DevOps, React, Python, AWS, Kubernetes)",
+    "services_grid": "8 distinct IT services cards with interactive modal or tab detail view",
+    "projects_portfolio": "Interactive project cards with filter tabs and tech stack tags",
+    "why_choose_us_bento": "Asymmetric Bento Grid highlighting skilled experts, high SLA, innovative tech stack, client satisfaction",
+    "contact_form": "Fully validated contact form (Name, Email, Phone, Service, Message) submitting to backend API /api/contact",
+    "svg_logo_mark": "Custom inline SVG logo mark with neon glowing gradient node effect"
+  },
+  "media": {
+    "image_urls": [
+      {
+        "category": "hero_visual",
+        "url": "https://images.unsplash.com/photo-1674027444485-cec3da58eef4?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NTYxOTF8MHwxfHNlYXJjaHwyfHxmdXR1cmlzdGljJTIwdGVjaG5vbG9neSUyMGRpZ2l0YWwlMjB0cmFuc2Zvcm1hdGlvbiUyMGNsb3VkJTIwQUklMjBzZXJ2ZXIlMjBjeWJlciUyMG5ldHdvcmt8ZW58MHx8fHwxNzkzNTE2ODA4fDA&ixlib=rb-4.1.0&q=85",
+        "description": "Abstract futuristic 3D digital neural network sphere with glowing connected nodes"
+      },
+      {
+        "category": "ai_cloud_network",
+        "url": "https://images.unsplash.com/photo-1683560660669-6be33568035e?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NTYxOTF8MHwxfHNlYXJjaHw0fHxmdXR1cmlzdGljJTIwdGVjaG5vbG9neSUyMGRpZ2l0YWwlMjB0cmFuc2Zvcm1hdGlvbiUyMGNsb3VkJTIwQUklMjBzZXJ2ZXIlMjBjeWJlciUyMG5ldHdvcmt8ZW58MHx8fHwxNzkzNTE2ODA4fDA&ixlib=rb-4.1.0&q=85",
+        "description": "Digital cloud infrastructure grid with glowing matrix signals"
+      },
+      {
+        "category": "cybersecurity_server",
+        "url": "https://images.unsplash.com/photo-1637166185518-058f5896a2e9?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NTYxOTF8MHwxfHNlYXJjaHxfHxmdXR1cmlzdGljJTIwdGVjaG5vbG9neSUyMGRpZ2l0YWwlMjB0cmFuc2Zvcm1hdGlvbiUyMGNsb3VkJTIwQUklMjBzZXJ2ZXIlMjBjeWJlciUyMG5ldHdvcmt8ZW58MHx8fHwxNzkzNTE2ODA4fDA&ixlib=rb-4.1.0&q=85",
+        "description": "Cybersecurity data hallway with cyan and blue neon lights"
+      },
+      {
+        "category": "datacenter_servers",
+        "url": "https://images.unsplash.com/photo-1752742111841-f490c48aa668?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NTYxOTF8MHwxfHNlYXJjaHwzfHxmdXR1cmlzdGljJTIwdGVjaG5vbG9neSUyMGRpZ2l0YWwlMjB0cmFuc2Zvcm1hdGlvbiUyMGNsb3VkJTIwQUklMjBzZXJ2ZXIlMjBjeWJlciUyMG5ldHdvcmt8ZW58MHx8fHwxNzkzNTE2ODA4fDA&ixlib=rb-4.1.0&q=85",
+        "description": "Modern enterprise data center illuminated by neon blue and green server racks"
+      },
+      {
+        "category": "development_workspace",
+        "url": "https://images.unsplash.com/photo-1719400471588-575b23e27bd7?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjY2NjV8MHwxfHNlYXJjaHwzfHxzb2Z0d2FyZSUyMGVuZ2luZWVyaW5nJTIwdGVhbSUyMGRhcmslMjB0ZWNoJTIwb2ZmaWNlJTIwY2xvdWQlMjBjb21wdXRpbmclMjBjb2Rpbmd8ZW58MHx8fHwxNzkzNTE2ODE0fDA&ixlib=rb-4.1.0&q=85",
+        "description": "Engineer working in front of multi-monitor setup with high performance code"
+      },
+      {
+        "category": "code_editor_screen",
+        "url": "https://images.unsplash.com/photo-1738255654134-1877cb984a8f?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjY2NjV8MHwxfHNlYXJjaHwyfHxzb2Z0d2FyZSUyMGVuZ2luZWVyaW5nJTIwdGVhbSUyMGRhcmslMjB0ZWNoJTIwb2ZmaWNlJTIwY2xvdWQlMjBjb21wdXRpbmclMjBjb2Rpbmd8ZW58MHx8fHwxNzkzNTE2ODE0fDA&ixlib=rb-4.1.0&q=85",
+        "description": "High tech dark code editor displaying software architecture algorithms"
+      }
+    ]
+  },
+  "page_specific_guidelines": {
+    "homepage": "Kinetic Hero with glowing particle/network background, headline line reveal, metrics counter banner (99.99% Uptime, 150+ Enterprise Projects, 24/7 Ops), Editorial Marquee strip, 8 Services teaser grid, Bento Why Choose Us, Selected Case Studies, Contact CTA.",
+    "about_us": "Overview of TechNova Solutions, Mission & Vision statements, Core Values (Innovation, Security, Scalability, Customer Centricity), Leadership & Engineering Team profiles.",
+    "services": "Interactive catalog of all 8 core services: 1. Web Development, 2. Mobile App Development, 3. Software Development, 4. Artificial Intelligence, 5. Cloud Computing, 6. Cybersecurity, 7. Digital Marketing, 8. UI/UX Design. Includes features, deliverable checklists, process workflow.",
+    "our_projects": "Portfolio showcase of fictional high-scale case studies (e.g. 'Apex AI Analytics Platform', 'QuantumCloud Enterprise Portal', 'Sentinel CyberGuard Vault', 'FinPulse Mobile Platform') with tech stack tags, problem/solution breakdown, and interactive preview modal.",
+    "why_choose_us": "Detailed Bento Grid layout highlighting 4 core pillars: Skilled Tech Veterans, Cutting-Edge Tech Stack, Agile Execution & 99.9% Uptime, Client-First Strategic Partnership.",
+    "contact_us": "Interactive dark-mode contact form with live validation (Name, Email, Phone, Service Selector, Message), backend storage integration, interactive office map info, and direct contact details."
+  },
+  "UNIVERSAL_GUIDELINES_FOR_MAIN_AGENT": {
+    "code_format": "All files in frontend are JavaScript (.js / .jsx), NOT TypeScript (.tsx). Use .js file extensions.",
+    "test_ids": "MUST add data-testid attribute in kebab-case on every key element (e.g., data-testid='nav-link-homepage', data-testid='contact-form-submit-button', data-testid='service-card-ai').",
+    "navigation_bar": "Header MUST be visible and sticky top-0 with backdrop blur (backdrop-blur-xl bg-[#0A0F1D]/80 border-b border-slate-800). Never completely transparent. Visible nav links on desktop.",
+    "spacing": "Generous spacing (p-8, p-12, py-20, py-28) to let elements breathe. Avoid cramped cards.",
+    "contrast": "Ensure white/cyan text on dark navy cards passes WCAG AA contrast standards.",
+    "interactive_states": "Hover transitions with border color changes, subtle translate-y scale, and cyan glowing shadow on CTAs.",
+    "forms": "Include validation indicators, loading spinners on submission, and clear success toasts via Sonner."
+  }
+}
